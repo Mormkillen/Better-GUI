@@ -1,0 +1,38 @@
+{
+	"targets": [
+		"bettergui_tmp",
+		"bettergui_blur"
+	],
+	"passes": [
+		{
+			"name": "blur",
+			"intarget": "minecraft:main",
+			"outtarget": "bettergui_tmp",
+			"uniforms": [
+				{
+					"name": "BlurDir",
+					"values": [ 1.0, 0.0 ]
+				},
+				{
+					"name": "Radius",
+					"values": [ 16.0 ]
+				}
+			]
+		},
+		{
+			"name": "blur",
+			"intarget": "bettergui_tmp",
+			"outtarget": "bettergui_blur",
+			"uniforms": [
+				{
+					"name": "BlurDir",
+					"values": [ 0.0, 1.0 ]
+				},
+				{
+					"name": "Radius",
+					"values": [ 16.0 ]
+				}
+			]
+		}
+	]
+}

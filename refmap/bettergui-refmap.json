@@ -1,0 +1,54 @@
+{
+  "mappings": {
+    "com/bettergui/mixin/DrawContextMixin": {
+      "drawTexture(Lnet/minecraft/util/Identifier;IIIIII)V": "Lnet/minecraft/class_332;method_25302(Lnet/minecraft/class_2960;IIIIII)V"
+    },
+    "com/bettergui/mixin/HandledScreenMixin": {
+      "Lnet/minecraft/client/gui/DrawContext;drawText(Lnet/minecraft/client/font/TextRenderer;Lnet/minecraft/text/Text;IIIZ)I": "Lnet/minecraft/class_332;method_51439(Lnet/minecraft/class_327;Lnet/minecraft/class_2561;IIIZ)I",
+      "Lnet/minecraft/client/gui/screen/Screen;renderInGameBackground(Lnet/minecraft/client/gui/DrawContext;)V": "Lnet/minecraft/class_437;method_52752(Lnet/minecraft/class_332;)V",
+      "backgroundHeight": "field_2779:I",
+      "backgroundWidth": "field_2792:I",
+      "drawForeground": "Lnet/minecraft/class_465;method_2388(Lnet/minecraft/class_332;II)V",
+      "renderBackground": "Lnet/minecraft/class_465;method_25420(Lnet/minecraft/class_332;IIF)V",
+      "render": "Lnet/minecraft/class_465;method_25394(Lnet/minecraft/class_332;IIF)V",
+      "x": "field_2776:I",
+      "y": "field_2800:I"
+    },
+    "com/bettergui/mixin/PostEffectProcessorAccessor": {
+      "passes": "field_1497:Ljava/util/List;"
+    },
+    "com/bettergui/mixin/RecipeBookWidgetMixin": {
+      "render(Lnet/minecraft/client/gui/DrawContext;IIF)V": "Lnet/minecraft/class_507;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
+    "com/bettergui/mixin/ScreenMixin": {
+      "renderBackground(Lnet/minecraft/client/gui/DrawContext;IIF)V": "Lnet/minecraft/class_437;method_25420(Lnet/minecraft/class_332;IIF)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/bettergui/mixin/DrawContextMixin": {
+        "drawTexture(Lnet/minecraft/util/Identifier;IIIIII)V": "Lnet/minecraft/class_332;method_25302(Lnet/minecraft/class_2960;IIIIII)V"
+      },
+      "com/bettergui/mixin/HandledScreenMixin": {
+        "Lnet/minecraft/client/gui/DrawContext;drawText(Lnet/minecraft/client/font/TextRenderer;Lnet/minecraft/text/Text;IIIZ)I": "Lnet/minecraft/class_332;method_51439(Lnet/minecraft/class_327;Lnet/minecraft/class_2561;IIIZ)I",
+        "Lnet/minecraft/client/gui/screen/Screen;renderInGameBackground(Lnet/minecraft/client/gui/DrawContext;)V": "Lnet/minecraft/class_437;method_52752(Lnet/minecraft/class_332;)V",
+        "backgroundHeight": "field_2779:I",
+        "backgroundWidth": "field_2792:I",
+        "drawForeground": "Lnet/minecraft/class_465;method_2388(Lnet/minecraft/class_332;II)V",
+        "renderBackground": "Lnet/minecraft/class_465;method_25420(Lnet/minecraft/class_332;IIF)V",
+        "render": "Lnet/minecraft/class_465;method_25394(Lnet/minecraft/class_332;IIF)V",
+        "x": "field_2776:I",
+        "y": "field_2800:I"
+      },
+      "com/bettergui/mixin/PostEffectProcessorAccessor": {
+        "passes": "field_1497:Ljava/util/List;"
+      },
+      "com/bettergui/mixin/RecipeBookWidgetMixin": {
+      "render(Lnet/minecraft/client/gui/DrawContext;IIF)V": "Lnet/minecraft/class_507;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
+    "com/bettergui/mixin/ScreenMixin": {
+        "renderBackground(Lnet/minecraft/client/gui/DrawContext;IIF)V": "Lnet/minecraft/class_437;method_25420(Lnet/minecraft/class_332;IIF)V"
+      }
+    }
+  }
+}
