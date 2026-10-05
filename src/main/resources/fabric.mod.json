@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "bettergui",
+	"version": "${version}",
+	"name": "Better GUI",
+	"description": "This mod changes the background of the player inventory and all container GUIs to a translucent acrylic (frosted glass) effect, making GUIs look better. The blur amount can be adjusted, and GUI colors or gradient colors can be customized.",
+	"icon": "assets/bettergui/icon.png",
+	"authors": [
+		"mormkillen"
+	],
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.bettergui.BetterGuiClient"
+		],
+		"modmenu": [
+			"com.bettergui.compat.BetterGuiModMenu"
+		]
+	},
+	"mixins": [
+		"bettergui.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17"
+	},
+	"suggests": {
+		"modmenu": ">=7.0.0"
+	}
+}
