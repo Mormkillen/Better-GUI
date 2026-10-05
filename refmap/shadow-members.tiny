@@ -1,0 +1,10 @@
+tiny	2	0	official	intermediary	named
+c	bettergui/mixin/HandledScreenMixin	com/bettergui/mixin/HandledScreenMixin	com/bettergui/mixin/HandledScreenMixin
+	f	I	bettergui_member_x	field_2776	x
+	f	I	bettergui_member_y	field_2800	y
+	f	I	bettergui_member_bgw	field_2792	backgroundWidth
+	f	I	bettergui_member_bgh	field_2779	backgroundHeight
+c	bettergui/mixin/RecipeBookWidgetMixin	com/bettergui/mixin/RecipeBookWidgetMixin	com/bettergui/mixin/RecipeBookWidgetMixin
+	f	I	bettergui_rb_leftOffset	field_3102	leftOffset
+	f	I	bettergui_rb_parentWidth	field_3101	parentWidth
+	f	I	bettergui_rb_parentHeight	field_3100	parentHeight
